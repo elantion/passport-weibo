@@ -21,14 +21,14 @@
   } ],
   "main": "./lib/passport-weibo",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "pkginfo": "^0.3.0",
+    "passport-oauth": "^1.0.0"
   },
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "^0.9.0"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": { "node": ">= 4.0.0" }
 }
